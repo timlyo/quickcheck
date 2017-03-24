@@ -100,15 +100,15 @@ development dependency instead:
 
 ```toml
 [dev-dependencies]
-quickcheck = "0.3"
+quickcheck = "0.4"
 ```
 
 If you want to use the `#[quickcheck]` attribute, then add `quickcheck_macros`
 
 ```toml
 [dev-dependencies]
-quickcheck = "0.3"
-quickcheck_macros = "0.2"
+quickcheck = "0.4"
+quickcheck_macros = "0.4"
 ```
 
 and only enable the `quickcheck_macros` plugin for the test build
